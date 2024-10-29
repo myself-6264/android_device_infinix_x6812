@@ -1,4 +1,4 @@
-# TWRP Device Tree for Xiaomi Redmi 12
+# TWRP Device Tree for infinix x6812
 
 The Infinix X6812 (codenamed _"TSSI"_) is an entry-level smartphone from Infinix.
 
@@ -44,28 +44,3 @@ $~$
 - [X] partition SD card
 
 $~$
-
-## How to build
-
-1. Set up the build environment following the instructions [here](https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp/blob/twrp-12.1/README.md#getting-started)
-
-2. In the root folder of the fetched repo, clone the device tree:
-
-```bash
-git clone https://github.com/AntarticShaurant/android_device_xiaomi_fire.git device/xiaomi/fire
-```
-
-3. To build:
-
-```bash
-export ALLOW_MISSING_DEPENDENCIES=true
-. build/envsetup.sh
-lunch twrp_fire-eng
-mka bootimage
-```
-
-$~$
-
-## Device picture
-
-![xiaomi-redmi-12-1](https://github.com/AntarticShaurant/android_device_xiaomi_fire/assets/109678650/bd593af4-92d4-4d5a-872d-e21bbb699a89)
