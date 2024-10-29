@@ -1,12 +1,12 @@
 #
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),x6812)
+ifeq ($(TARGET_DEVICE),Infinix-X6812)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
